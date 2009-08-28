@@ -44,11 +44,11 @@ read -p "What do you want to do now? Please enter the number:" ACT
   case $ACT in
    "1")
    choice_branch
-   git pull git://github.com/xiangyang17/lazyscripts_pool_arch.git $BRANCH && push_repo
+   git pull git://github.com/pct/lazyscripts_pool_arch.git $BRANCH && push_repo
    ;;
    "2")
    choice_branch
-   git pull git://github.com/billy3321/lazyscripts_pool_centos_arch.git $BRANCH && push_repo
+   git pull git://github.com/billy3321/lazyscripts_pool_arch.git $BRANCH && push_repo
    ;;
    "0")
    read -p "Please enter the git repo:" URL 
